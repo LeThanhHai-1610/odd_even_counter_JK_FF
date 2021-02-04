@@ -1,0 +1,12 @@
+|dem_chan_le_JK_FF
+clk => qs[2].CLK
+clk => qs[1].CLK
+clk => qs[0].CLK
+rst => qs[2].ACLR
+rst => qs[1].ACLR
+rst => qs[0].ACLR
+q[0] <= qs[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= qs[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= qs[2].DB_MAX_OUTPUT_PORT_TYPE
+
+
